@@ -7,7 +7,7 @@ bot.commands = new Discord.Collection();
 let coins = require("./coins.json");
 let xp = require("./xp.json");
 let purple = botconfig.purple;
-
+//help
 fs.readdir("./commands/", (err, files) => {
 
   if(err) console.log(err);
